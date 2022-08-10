@@ -1424,3 +1424,14 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.theme-purple  .img-badges {
+    height: 40px;
+    width: 60px;
+    margin-top: 0.2rem;
+}
+
+.theme-purple  .img-github-cards {
+    height: 10rem;
+    width: 30rem;
+}

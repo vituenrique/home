@@ -29,6 +29,9 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/virtual.css">
 		
 		<link rel="stylesheet" type="text/css" href="./assets/css/minibar.virtual.css">
+
+		<link rel="stylesheet" type="text/css" href="./assets/css/github-widget.css"/>
+
 	</head>
 	<body class="theme-purple">
 		<!--TODO: Maybe also make this site available in other languages (pt-BR, en-US, es-ES?...)-->
@@ -68,7 +71,7 @@
 			<div class="brand">
 				<img src="./assets/favicon.ico" alt="" width="30" height="30">
 			</div>
-			<h3 class="ml-1">Gram</h3>
+			<!-- <h3 class="ml-1">ictor Lemos</h3> -->
 			<button class="btn-fab toggle-menu mr-3"><span class="ti-menu"></span></button>
 		</div>
 
@@ -93,13 +96,19 @@
 					</li>
 					<li class="menu-item">
 						<a href="#portfolio" class="menu-link">
-							<span class="icon ti-layers"></span>
-							<span class="caption">Portfolio</span>
+							<span class="icon ti-archive"></span>
+							<span class="caption">Projects</span>
+						</a>
+					</li>
+					<li class="menu-item">
+						<a href="#papers" class="menu-link">
+							<span class="icon ti-file"></span>
+							<span class="caption">Papers</span>
 						</a>
 					</li>
 					<li class="menu-item">
 						<a href="#contact" class="menu-link">
-							<span class="icon ti-direction"></span>
+							<span class="icon ti-id-badge"></span>
 							<span class="caption">Contact</span>
 						</a>
 					</li>
@@ -148,65 +157,72 @@
 					<h1 class="text-center fg-dark wow fadeInUp">My Skills</h1>
 					<div class="row py-3">
 						<div class="col-md-12">
+							<!-- Programing Languages -->
 							<h5 class="wow fadeInUp">Programing Languages</h5>
 							<div align="left">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="52" alt="python logo" title="Python"/>
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo" title="Javascript" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" width="52" alt="csharp logo" title="C#" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python logo" title="Python"/>
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo" title="Javascript" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="csharp logo" title="C#" />
 							</div>
 							<hr>
 							<!-- Libraries/Frameworks -->
 							<h5 class="wow fadeInUp">Libraries/Frameworks</h5>
 							<div align="left">
 								<!-- ML libs -->
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" width="52" alt="tensorflow logo" title="Tensorflow" />
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pytorch/pytorch-original.svg" height="40" width="52" alt="pytorch logo" title="PyTorch" />
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/opencv/opencv-original.svg" height="40" width="52" alt="opencv logo" title="OpenCV" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="tensorflow logo" title="Tensorflow" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pytorch/pytorch-original.svg" alt="pytorch logo" title="PyTorch" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/opencv/opencv-original.svg" alt="opencv logo" title="OpenCV" />
+								<img class="img-badges" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn logo" title="Scikit learn" />
+								<img class="img-badges" src="./assets/img/logo/MLflow-Logo.svg" style="margin-left:0.9rem;" alt="scikit-learn logo" title="Scikit learn" />
 
 								<!-- DS libs -->
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original.svg" height="40" width="52" alt="anaconda logo" title="Anaconda" />
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/jupyter/jupyter-original-wordmark.svg" height="40" width="52" alt="jupyter logo" title="Jupyter" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" width="52" alt="numpy logo" title="Numpy" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" width="52" alt="pandas logo" title="Pandas" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/anaconda/anaconda-original.svg" alt="anaconda logo" title="Anaconda" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter logo" title="Jupyter" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy logo" title="Numpy" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas logo" title="Pandas" />
 
 								<!-- REST framework -->
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg" height="40" width="52" alt="django logo" title="Django" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" width="52" alt="flask logo" title="Flask" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" width="52" alt="dotnetcore logo" title=".Net Core" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" width="52" alt="dot-net logo" title=".Net" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg" alt="django logo" title="Django" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="flask logo" title="Flask" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="dotnetcore logo" title=".Net Core" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="dot-net logo" title=".Net" />
 								
 								<!-- Databases -->
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" width="52" alt="mysql logo" title="MySQL" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" width="52" alt="oracle logo" title="Oracle" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" width="52" alt="postgres logo" title="Postgres" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" width="52" alt="sqlite logo" title="SQLite" />
-								
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git logo" title="Git" />
+							</div>
+							<hr>
+							<!-- Softwares -->
+							<h5 class="wow fadeInUp">Databases</h5>
+							<div align="left">
 								<!-- Databases -->
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" alt="git logo" title="GIT" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql logo" title="MySQL" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="oracle logo" title="Oracle" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgres logo" title="Postgres" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="sqlite logo" title="SQLite" />
 							</div>
 							<hr>
 							<!-- Softwares -->
 							<h5 class="wow fadeInUp">Softwares</h5>
 							<div align="left">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="52" alt="vscode logo" title="VSCode" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" width="52" alt="visualstudio logo" title="Visual Studio" />
-								<img src="https://www.svgrepo.com/show/354202/postman-icon.svg" height="40" width="52" alt="postman logo" title="Postman" />
-								<img src="https://www.svgrepo.com/show/341847/github.svg" height="40" width="52" alt="github logo" title="Github" />
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" width="52" alt="gitlab logo" title="GitLab" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode logo" title="VSCode" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="visualstudio logo" title="Visual Studio" />
+								<img class="img-badges" src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="postman logo" title="Postman" />
+								<img class="img-badges" src="https://www.svgrepo.com/show/341847/github.svg" alt="github logo" title="Github" />
+								<img class="img-badges" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="gitlab logo" title="GitLab" />
 							</div>
 							<hr>
 							<!-- Cloud Services -->
 							<h5 class="wow fadeInUp">Cloud Services</h5>
 							<div align="left">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" height="40" width="52" alt="Aws logo" title="AWS" />
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" height="40" width="52" alt="Azure logo" title="Azure" />
+								<img class="img-badges" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="Aws logo" title="AWS" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/azure/azure-original.svg" alt="Azure logo" title="Azure" />
 							</div>
 							<hr>
 							<!-- MLOps -->
 							<h5 class="wow fadeInUp">MLOps</h5>
 							<div align="left">
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg" height="40" width="52" alt="Docker logo" title="Docker" />
-								<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/kubernetes/kubernetes-plain.svg" height="40" width="52" alt="kubernetes logo" title="Kubernetes" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg" alt="Docker logo" title="Docker" />
+								<img class="img-badges" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes logo" title="Kubernetes" />
 							</div>
 							<hr>
 						</div>
@@ -289,240 +305,104 @@
 			</div> 
 			<!-- End page about -->
 		
-			<!-- Page Service -->
-			<!-- <div class="vg-page page-service" id="services">
-				<h1 class="text-center wow fadeInUp">Services</h1>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card card-body">
-								<div class="iconic">
-									<span class="ti-layout"></span>
-								</div>
-								<h4 class="fg-theme">Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								<a href="#" class="btn btn-theme btn-rounded">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card card-body">
-								<div class="iconic">
-									<span class="ti-announcement"></span>
-								</div>
-								<h4 class="fg-theme">SEO</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								<a href="#" class="btn btn-theme btn-rounded">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card card-body">
-								<div class="iconic">
-									<span class="ti-desktop"></span>
-								</div>
-								<h4 class="fg-theme">Web Development</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								<a href="#" class="btn btn-theme btn-rounded">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card card-body">
-								<div class="iconic">
-									<span class="ti-layout"></span>
-								</div>
-								<h4 class="fg-theme">Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								<a href="#" class="btn btn-theme btn-rounded">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card card-body">
-								<div class="iconic">
-									<span class="ti-announcement"></span>
-								</div>
-								<h4 class="fg-theme">SEO</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								<a href="#" class="btn btn-theme btn-rounded">Read More</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card card-body">
-								<div class="iconic">
-									<span class="ti-desktop"></span>
-								</div>
-								<h4 class="fg-theme">Web Development</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								<a href="#" class="btn btn-theme btn-rounded">Read More</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>  -->
-			<!-- End page services -->
-		
 			<!-- Portfolio page -->
 			<div class="vg-page page-service" id="portfolio">
 				<!--TODO: this will contain links for some of my github projects -->
 				<div class="container">
-					<div class="text-center wow fadeInUp">
-						<div class="badge badge-subhead">Github</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="text-center wow fadeInUp">
+								<div class="badge badge-subhead">Github</div>
+							</div>
+							<h1 class="text-center fw-normal wow fadeInUp">See some of my work</h1>
+						</div>
 					</div>
-					<h1 class="text-center fw-normal wow fadeInUp">See some of my work</h1>
-					<div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
-						<button class="btn btn-theme-outline selected" data-filter="*">All</button>
-						<button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
-						<button class="btn btn-theme-outline" data-filter=".template">Template</button>
-						<button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
-						<button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
-						<button class="btn btn-theme-outline" data-filter=".graphic">Graphic</button>
-						<button class="btn btn-theme-outline" data-filter=".wireframes">Wireframes</button>
-					</div>
-
-					<div class="gridder my-3">
-						<div class="grid-item apps wow zoomIn">
-							<div class="img-place" data-src="./assets/img/work/work-1.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
-								<img src="./assets/img/work/work-1.jpg" alt="">
-								<div class="img-caption">
-									<h5 class="fg-theme">Mobile Travel App</h5>
-									<p>Travel, Discovery</p>
-								</div>
-							</div>
+					<!-- Link to generate a new card: https://ghlinkcard.com/ -->
+					<div class="row">
+						<div class="col-md-6 col-lg-6 wow fadeInUp">
+							<a href="https://github.com/vituenrique/Classification-Score" target="_blank">
+								<img class="img-github-cards" src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png">
+							</a>
 						</div>
-						<div class="grid-item template wireframes wow zoomIn">
-							<div class="img-place" data-src="./assets/img/work/work-2.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
-								<img src="./assets/img/work/work-2.jpg" alt="">
-								<div class="img-caption">
-									<h5 class="fg-theme">Music App</h5>
-									<p>Musics</p>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item apps ios wow zoomIn">
-							<div class="img-place" data-src="./assets/img/work/work-3.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
-								<img src="./assets/img/work/work-3.jpg" alt="">
-								<div class="img-caption">
-									<h5 class="fg-theme">Gaming Dashboard</h5>
-									<p>Games, Streaming</p>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item graphic ui-ux wow zoomIn">
-							<div class="img-place" data-src="./assets/img/work/work-4.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
-								<img src="./assets/img/work/work-4.jpg" alt="">
-								<div class="img-caption">
-									<h5 class="fg-theme">Drugs Delivery App</h5>
-									<p>Health, Drugs</p>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item apps ios wow zoomIn">
-							<div class="img-place" data-src="./assets/img/work/work-5.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>">
-								<img src="./assets/img/work/work-5.jpg" alt="">
-								<div class="img-caption">
-									<h5 class="fg-theme">Musics Discover</h5>
-									<p>Musics, Dashboard</p>
-								</div>
-							</div>
-						</div>
-						<div class="grid-item graphic ui-ux wireframes wow zoomIn">
-							<div class="img-place" data-src="./assets/img/work/work-6.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
-								<img src="./assets/img/work/work-6.jpg" alt="">
-								<div class="img-caption">
-									<h5 class="fg-theme">Game Streaming</h5>
-									<p>Games, Streaming</p>
-								</div>
-							</div>
+						<div class="col-md-6 col-lg-6 wow fadeInUp">
+							<a href="https://github.com/vituenrique/RooftopSegmentation" target="_blank">
+								<img class="img-github-cards" src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/RooftopSegmentation.png">
+							</a>
 						</div>
 					</div> 
+					<div class="row">
+						<div class="col-md-6 col-lg-6 wow fadeInUp">
+							<a href="https://github.com/vituenrique/MaxCliqueGrasp" target="_blank">
+								<img class="img-github-cards" src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/MaxCliqueGrasp.png">
+							</a>
+						</div>
+						<!-- <div class="col-md-6 col-lg-4 wow fadeInUp">
+							<a href="https://github.com/vituenrique/Classification-Score"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png" width="460px"></a>
+						</div>
+						<div class="col-md-6 col-lg-4 wow fadeInUp">
+							<a href="https://github.com/vituenrique/Classification-Score"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png" width="460px"></a>
+						</div>
+						<div class="col-md-6 col-lg-4 wow fadeInUp">
+							<a href="https://github.com/vituenrique/Classification-Score"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png" width="460px"></a>
+						</div> -->
+					</div>
 					<!-- End gridder -->
 					<div class="text-center wow fadeInUp">
-						<!--TODO: Redirect here for "https://github.com/vituenrique?tab=repositories" -->
-						<a href="javascript:void(0)" class="btn btn-theme">Load More</a>
+						<a href="https://github.com/vituenrique?tab=repositories" target="_blank" class="btn btn-theme">Load More</a>
 					</div>
 				</div>
 			</div> 
 			<!-- End Portfolio page -->
 
 			<!-- TODO: Create a area for displaying your papers -->
-			<!-- Page Blog -->
-			<!-- <div class="vg-page page-blog" id="blog">
-				<h1 class="text-center fg-dark wow fadeInUp">Latest Post</h1>
+			<!-- Page Service -->
+			<div class="vg-page page-portifolio" id="papers">
+				<h1 class="text-center wow fadeInUp">Papers</h1>
 				<div class="container">
-					<div class="row post-grid">
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card">
-								<div class="img-place">
-									<img src="./assets/img/work/work-9.jpg" alt="">
-								</div>
-								<div class="caption">
-									<a href="javascript:void(0)" class="post-category">Technology</a>
-									<a href="#" class="post-title">Invision design forward fund</a>
-									<span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card">
-								<div class="img-place">
-									<img src="./assets/img/work/work-6.jpg" alt="">
-								</div>
-								<div class="caption">
-									<a href="javascript:void(0)" class="post-category">Business</a>
-									<a href="#" class="post-title">Announcing a plan for small teams</a>
-									<span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<div class="card">
-								<div class="img-place">
-									<img src="./assets/img/work/work-1.jpg" alt="">
-								</div>
-								<div class="caption">
-									<a href="javascript:void(0)" class="post-category">Design</a>
-									<a href="#" class="post-title">5 basic tips for illustrating</a>
-									<span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 text-center py-3 wow fadeInUp">
-							<a href="blog-minibar.html" class="btn btn-theme">See All Post</a>
-						</div>
-					</div>
-				</div>
-			</div>  -->
-			<!-- End page blog -->
-		
-			<!-- Page Contact -->
-			<div class="vg-page page-contact" id="contact">
-				<h1 class="text-center fg-dark wow fadeInUp">Contact</h1>
-				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-12">
-							<!-- TODO: Make this email form functional-->
-							<form class="vg-contact-form">
-								<div class="form-row">
-									<div class="col-12 wow fadeInUp">
-										<input class="form-control" type="text" name="Name" placeholder="Your Name">
-									</div>
-									<div class="col-6 wow fadeInUp">
-										<input class="form-control" type="text" name="Email" placeholder="Email Address">
-									</div>
-									<div class="col-6 wow fadeInUp">
-										<input class="form-control" type="text" name="Subject" placeholder="Subject">
-									</div>
-									<div class="col-12 wow fadeInUp">
-										<textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>
-									</div>
-									<div class="justify-content-center wow fadeInUp">
-										<button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>
-									</div>
-								</div>
-							</form>
+						<div class="col-md-12 col-lg-12 wow fadeInUp">
+							<table class="table table-striped table-dark">
+								<thead>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Title</th>
+										<th scope="col">Publisher</th>
+										<th scope="col">Authors</th>
+										<th scope="col">Year</th>
+
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Mark</td>
+										<td>Otto</td>
+										<td>@mdo</td>
+										<td>@mdo</td>
+
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Jacob</td>
+										<td>Thornton</td>
+										<td>@fat</td>
+										<td>@mdo</td>
+
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Larry</td>
+										<td>the Bird</td>
+										<td>@twitter</td>
+										<td>@mdo</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>
 			</div> 
-			<!-- End page contact -->
+			<!-- End page services -->
 		
 			<!-- Footer -->
 			<div class="vg-footer">
@@ -582,11 +462,9 @@
 
 		<script src="./assets/vendor/waypoints/jquery.waypoints.min.js"></script>
 
-		<script src="./assets/js/google-maps.js"></script>
-
 		<script src="./assets/js/minibar-virtual.js"></script>
 
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+		<script src="./assets/js/github-widget.min.js"></script>
 
 	</body>
 </html>
