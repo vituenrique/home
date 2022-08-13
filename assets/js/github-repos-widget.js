@@ -16,7 +16,7 @@ $.ajax({
             let repository_description = (repo.description ?? "") 
             repository_description = repository_description.length > MAX_DESCRIPTION_LENGTH ? repository_description.substring(0, MAX_DESCRIPTION_LENGTH) + " ..." : repository_description
             let repository_programing_language = repo.language
-            let repository_programing_language_img = "../assets/img/logo/programing_languages/" + repository_programing_language + ".svg"
+            let repository_programing_language_img = "../assets/img/logo/programing_languages/" + repository_programing_language.toLowerCase() + ".svg"
             let repository_cover_img = "../assets/img/banner_github.png"
             $('#github-projects').append(
                 "<div class='grid-item wow zoomIn'>\
