@@ -316,12 +316,40 @@
     margin-top: 8px;
     padding: 20px;
     border-radius: 4px;
+    -webkit-animation: slideIn 1s linear;
 }
 
-.timeline li .details h5,
-.timeline li .details p {
+.timeline li .details h5 {
     margin-bottom: 0;
 }
+
+.timeline li .details p { 
+    margin-bottom: 0;
+    text-align: justify !important;
+    font-size: 14px;
+
+}
+/* TODO: in case I decide to bring back the collapsable description  */
+/* .timeline li .details p {
+    position: absolute; 
+    visibility: hidden;
+    margin-bottom: 0;
+    text-align: justify !important;
+    transform: translateY(-100%);
+    -webkit-animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.timeline li .details:hover p {
+    position: relative; 
+    visibility: visible;
+
+} */
 
 .timeline li .details small {
     display: block;
@@ -330,7 +358,6 @@
     margin-top: 5px;
     margin-bottom: 10px;
 }
-
 
 /* Page Style */
 .vg-page {
