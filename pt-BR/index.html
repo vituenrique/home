@@ -307,48 +307,28 @@
 		
 			<!-- Portfolio page -->
 			<div class="vg-page page-service" id="portfolio">
-				<!--TODO: this will contain links for some of my github projects -->
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="text-center wow fadeInUp">
-								<div class="badge badge-subhead">Github</div>
+								<div class="badge badge-subhead"><h1>Github</h1></div>
 							</div>
 							<h1 class="text-center fw-normal wow fadeInUp">Veja parte do meu trabalho</h1>
 						</div>
 					</div>
-					<!-- Link to generate a new card: https://ghlinkcard.com/ -->
+					<!-- Display the github projects -->
 					<div class="row">
-						<div class="col-md-6 col-lg-6 wow fadeInUp">
-							<a href="https://github.com/vituenrique/Classification-Score" target="_blank">
-								<img class="img-github-cards" src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png">
-							</a>
+						<div class="col-md-12">
+							<div class="gridder my-3" id="github-projects"></div> 
 						</div>
-						<div class="col-md-6 col-lg-6 wow fadeInUp">
-							<a href="https://github.com/vituenrique/RooftopSegmentation" target="_blank">
-								<img class="img-github-cards" src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/RooftopSegmentation.png">
-							</a>
-						</div>
-					</div> 
-					<div class="row">
-						<div class="col-md-6 col-lg-6 wow fadeInUp">
-							<a href="https://github.com/vituenrique/MaxCliqueGrasp" target="_blank">
-								<img class="img-github-cards" src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/MaxCliqueGrasp.png">
-							</a>
-						</div>
-						<!-- <div class="col-md-6 col-lg-4 wow fadeInUp">
-							<a href="https://github.com/vituenrique/Classification-Score"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png" width="460px"></a>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<a href="https://github.com/vituenrique/Classification-Score"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png" width="460px"></a>
-						</div>
-						<div class="col-md-6 col-lg-4 wow fadeInUp">
-							<a href="https://github.com/vituenrique/Classification-Score"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/vituenrique/Classification-Score.png" width="460px"></a>
-						</div> -->
 					</div>
-					<!-- End gridder -->
-					<div class="text-center wow fadeInUp">
-						<a href="https://github.com/vituenrique?tab=repositories" target="_blank" class="btn btn-theme">Carregar mais</a>
+					<!-- Load more -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="text-center wow fadeInUp">
+								<a href="https://github.com/vituenrique?tab=repositories" target="_blank" class="btn btn-theme">Veja mais</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div> 
@@ -466,22 +446,8 @@
 
 		<script src="../assets/js/github-widget.min.js"></script>
 
-		<script>
-			/* When the user clicks on the button, 
-			toggle between hiding and showing the dropdown content */
-			function myFunction() {
-				document.getElementById("myDropdown").classList.toggle("show");
-			}
-			
-			// Close the dropdown if the user clicks outside of it
-			window.onclick = function(e) {
-				if (!e.target.matches('.dropbtn')) {
-					var myDropdown = document.getElementById("myDropdown");
-					if (myDropdown.classList.contains('show')) {
-						myDropdown.classList.remove('show');
-					}
-				}
-			}
-		</script>
+		<script src="../assets/js/multi-language-switch.js"></script>
+
+		<script src="../assets/js/github-repos-widget.js"></script>
 	</body>
 </html>
