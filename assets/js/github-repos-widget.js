@@ -3,7 +3,7 @@ const PROJECTS_TO_DISPLAY = ['Classification-Score', 'MaxCliqueGrasp', 'RooftopS
 const MAX_DESCRIPTION_LENGTH = 43
 const GITHUB_API_ENDPOINT = "https://api.github.com/users/vituenrique/repos"
 var path = window.location.pathname;
-const IMG_ASSETS_PATH = path == "/" || path == "/home/" ? "./assets/img" : (path == "/pt-BR/"  ?  "../assets/img" : "")
+const IMG_ASSETS_PATH = path == "/" || path == "/home/" ? "./assets/img" : "../assets/img"
 
 
 $.ajax({
