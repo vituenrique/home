@@ -108,13 +108,15 @@ a:hover, a:active {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 100%;height: 100%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     z-index: 10;
 }
 
 .img-place > img {
-    width: 100%;height: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* Overlay */
@@ -1072,7 +1074,7 @@ a:hover, a:active {
     display: block;
     margin: 0 auto;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     height: 100%;
     border-radius: 4px;
     overflow: hidden;
@@ -1091,12 +1093,20 @@ a:hover, a:active {
 }
 
 .grid-item .img-caption p {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.5em;     /* fallback */
+    max-height: 21px;      /* fallback */
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
 .grid-item .img-caption p::before {
-    content: "\2911";
+    content: "\2022";
     margin-right: 5px;
 }
 
@@ -1110,7 +1120,7 @@ a:hover, a:active {
 @media (min-width: 992px) {
     .gridder .grid-item,
     .gridder .grid-sizer {
-        width: 33.33333%;
+        width: 50%;
     }
 }
 

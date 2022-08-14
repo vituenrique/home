@@ -316,7 +316,7 @@
     margin-top: 8px;
     padding: 20px;
     border-radius: 4px;
-    -webkit-animation: slideIn 1s linear;
+    /* -webkit-animation: slideIn 1s linear; */
 }
 
 .timeline li .details h5 {
@@ -325,7 +325,7 @@
 
 .timeline li .details p { 
     margin-bottom: 0;
-    text-align: justify !important;
+    text-align: left !important;
     font-size: 14px;
 
 }
