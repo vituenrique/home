@@ -119,6 +119,11 @@
 					<h1 class="fw-normal">Bem Vindo</h1>
 					<h2 class="fw-medium fg-theme">Eu sou Victor Lemos</h2>
 					<p class="tagline">Engenheiro de ML & Cientista de Dados</p>
+					<div class="floating-button wow fadeInUp">
+						<div class="middle">
+							<div class="mouse"></div>
+						</div>
+					</div>	
 				</div>
 			</div>
 		
@@ -239,11 +244,10 @@
 										<h5>Mestrado em Ciência da Computação</h5>
 										<small class="fg-theme">Universidade Federal do Maranhão</small>
 										<p>
-											Foco em Realidade Aumentada e Virtual, Computação Gráfica, Processamento de 
-											Imagens e Aprendizagem de Máquina.
-											<br>
-											<b>Monografia:</b> Desenvolvimento de uma Aplicação de Visualização de Simulações 
-											Computacionais em RA Aplicando Design Participativo.
+											Foco em Séries temporais, Aprendizado de Máquina, Redes Neurais e GPU 
+											Acceleration.
+											<br><br>
+											<b>Dissertação:</b> Estimação Individual de Consumo Elétrico Utilizando Temporal Convolution Network.
 										</p>
 									</div>
 								</li>
@@ -253,10 +257,11 @@
 										<h5>Bacharelado em Ciência da Computação</h5>
 										<small class="fg-theme">Universidade Federal do Maranhão</small>
 										<p>
-											Foco em Séries temporais, Aprendizado de Máquina, Redes Neurais e GPU 
-											Acceleration.
-											<br>
-											<b>Dessertação:</b> Estimação Individual de Consumo Elétrico Utilizando Temporal Convolution Network.
+											Foco em Realidade Aumentada e Virtual, Computação Gráfica, Processamento de 
+											Imagens e Aprendizagem de Máquina.
+											<br><br>
+											<b>Monografia:</b> Desenvolvimento de uma Aplicação de Visualização de Simulações 
+											Computacionais em RA Aplicando Design Participativo.
 										</p>
 									</div>
 								</li>
@@ -271,12 +276,13 @@
 										<h5>Engenheiro de Machine Learning Pleno</h5>
 										<small class="fg-theme">Consolide</small>
 										<p>
-											Trabalhou no desenvolimentos de projetos como: avaliador de pitch de atendimento que, 
-											baseado em uma gravação de uma ligação entre um vendedor e seu cliente, avalia 
-											se todos as etapas do pitch foram cumpridas, além de uma análise temporal de 
-											sentimento. Já o segundo projeto envolve um motor de busca inteligente que utiliza 
-											métricas de semelhança fonética e gramatical, além de outras técnicas de NLP para 
-											estimar a probabilidade de registro de uma marca.
+											Engenheiro de Machine Learning atuando em projetos envolvendo:
+											<br>- IA/Python Team Leader
+											<br>- Transcrição de fala para texto
+											<br>- Semelhança fonética e gramatical
+											<br>- Modelo de classificação de texto e de Scoring
+											<br>- Manipulação do ciclo de vida do modelo de aprendizado de máquina
+											<br>- PNL para correspondência de marcas
 										</p>
 									</div>
 								</li>
@@ -286,12 +292,12 @@
 										<h5>Cientista de Dados</h5>
 										<small class="fg-theme">Equatorial Energia</small>
 										<p> 
-											Responsável pela criação, manutenção e avaliação de modelos preditivos para 
-											determinar ferramentas de cobrança de forma automática. Os processos necessitam 
-											de ajustes diários nos modelos preditivos bem como outras atividades como 
-											Reconhecimento de Padrões e Analise de Dados, Segmentação de Consumidores, 
-											Scoring baseado no histórico de pagamentos e criação de Pipelines de automação 
-											para utilização de modelos de predição em ambientes de produção.
+											Cientista de Dados responsável por: 
+											<br>- Reconhecimento e Análise de Pardões
+											<br>- Modelo de segmentação clientes
+											<br>- Modelos de Scoring
+											<br>- Criação e manuteção de modelos de Aprendizado de Máquina
+											<br>- Pipelines de ETL para automação em ambientes de produção
 										</p>
 									</div>
 								</li>
@@ -301,9 +307,12 @@
 										<h5>Desenvolvedor Back-end</h5>
 										<small class="fg-theme">SAMCORP Solutions</small>
 										<p> 
-											Alocado como desenvolvedor terceirizado na Cargill em um projeto Internacional craiação 
-											um sistema para gerenciamento de contratos de compra e venda de Grãos. Foram utilizados 
-											o framework .NET Core para criação de micro-serviços os bancos de dados MySQL e SQL Server.
+										Alocado como desenvolvedor back-end terceirizado na Cargill em um projeto Internacional 
+										craiação um sistema para gerenciamento de contratos de compra e venda de Grãos. 
+										<br>- .NET Core Framework
+										<br>- MySQL 
+										<br>- SQL Server 
+										<br>- Criação de micro-serviços
 										</p>
 									</div>
 								</li>
@@ -375,51 +384,23 @@
 			</div> 
 			<!-- End Portfolio page -->
 
-			<!-- TODO: Create a area for displaying your papers -->
 			<!-- Page Papers -->
 			<div class="vg-page page-portifolio" id="papers">
 				<h1 class="text-center wow fadeInUp">Publicações</h1>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12 col-lg-12 wow fadeInUp">
-						<h3 class="text-center wow fadeInUp">Em breve...</h3>
-							<!-- <table class="table table-striped table-dark">
+						<div class="col-md-12 col-lg-12 wow fadeInUp" id="papers-error">
+							<table class="table table-hover" id="papers-table">
 								<thead>
 									<tr>
-										<th scope="col">#</th>
-										<th scope="col">Título</th>
+										<th scope="col">Title</th>
 										<th scope="col">Publisher</th>
-										<th scope="col">Autores</th>
-										<th scope="col">Ano</th>
-
+										<th scope="col">Year</th>
+										<th scope="col"></th>
 									</tr>
 								</thead>
-								<tbody>
-									<tr>
-										<th scope="row">1</th>
-										<td>Mark</td>
-										<td>Otto</td>
-										<td>@mdo</td>
-										<td>@mdo</td>
-
-									</tr>
-									<tr>
-										<th scope="row">2</th>
-										<td>Jacob</td>
-										<td>Thornton</td>
-										<td>@fat</td>
-										<td>@mdo</td>
-
-									</tr>
-									<tr>
-										<th scope="row">3</th>
-										<td>Larry</td>
-										<td>the Bird</td>
-										<td>@twitter</td>
-										<td>@mdo</td>
-									</tr>
-								</tbody>
-							</table> -->
+								<tbody id="papers-widget"></tbody>
+							</table>
 						</div>
 					</div>
 				</div>
@@ -489,5 +470,7 @@
 		<script src="../assets/js/multi-language-switch.js"></script>
 
 		<script src="../assets/js/github-repos-widget.js"></script>
+
+		<script type="module" src="../assets/js/papers-widget.js"></script>
 	</body>
 </html>
