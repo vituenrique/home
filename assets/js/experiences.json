@@ -1,0 +1,68 @@
+{
+    "experiences": {
+        "pt-BR": [
+            {
+                "title": "Engenheiro de Machine Learning Pleno", 
+                "company": "Consolide",
+                "period": "06/2021 - Hoje",
+                "job_description": "Engenheiro de Machine Learning atuando em projetos envolvendo:- IA/Python Team Leade<br>- Transcrição de fala para texto<br>- Semelhança fonética e gramatical<br>- Modelo de classificação de texto e de Scoring<br>- Manipulação do ciclo de vida do modelo de aprendizado de máquina<br>- PNL para correspondência de marcas" 
+            }, 
+            {
+                "title": "Cientista de Dados", 
+                "company": "Equatorial Energia",
+                "period": "02/2021 - 05/2021",
+                "job_description": "Cientista de Dados responsável por:<br>- Reconhecimento e Análise de Pardões<br>- Modelo de segmentação clientes<br>- Modelos de Scoring<br>- Criação e manuteção de modelos de Aprendizado de Máquina<br>- Pipelines de ETL para automação em ambientes de produção" 
+            }, 
+            {
+                "title": "Desenvolvedor Back-end", 
+                "company": "SAMCORP Solutions",
+                "period": "09/2020 - 02/2021",
+                "job_description": "Alocado como desenvolvedor back-end terceirizado na Cargill em um projeto Internacional craiação um sistema para gerenciamento de contratos de compra e venda de Grãos.<br>- .NET Core Framework<br>- MySQL<br>- SQL Server<br>- Criação de micro-serviços" 
+            }, 
+            {
+                "title": "Desenvolvedor/Pesquisador ML", 
+                "company": "P&D SISHCO (NCA - Equaltorial Energia)",
+                "period": "03/2019 - 09/2021",
+                "job_description": "Atuei como desenvolvedor e pesquisador na criação de uma ferramenta de definição adaptativa de parâmetros para a crítica da medição do consumo de energia elétrica usando Deep Learning e Survival Analysis. Esse software foi capaz de maneira individualizada e adaptativa, gerar estimativas para crítica da medição do consumo de energia elétrica baseados em informações históricas." 
+            }, 
+            {
+                "title": "Desenvolvedor/Pesquisador ML", 
+                "company": "P&D SAUL (NCA - Equaltorial Energia)",
+                "period": "11/2017 - 03/2019",
+                "job_description": "Atuei como desenvolvedor e pesquisador na criação de uma ferramenta para construção auto organizável de agrupamentos de leitura utilizando de métodos de inteligência computacional e Sistemas de Informação Geográfica. Foi desenvolvida uma aplicação WebGIS para auto-organização de agrupamento de unidades consumidoras para leitura de medição. Foi então desenvolvido um módulo de otimização que foi integrado em forma de serviço através do framework Django, nele foram implementados os algoritmos de aprendizado de máquina responsáveis pela geração automática dos agrupamentos e organização das unidades consumidoras." 
+            }
+        ],
+        "en-US": [
+            {
+                "title": "Mid-Level Machine Learning Engineer", 
+                "company": "Consolide",
+                "period": "06/2021 - Hoje",
+                "job_description": "Machine Learning Engineer working in projects involving:<br>- AI/Python Team Leader<br>- Speech to text transcription<br>- Phonetic and grammatical similarity<br>- Text classification and Scoring model<br>- Handling machine learning model lifecycle<br>- NLP for trademark matching" 
+            }, 
+            {
+                "title": "Mid-Level Data Scientist", 
+                "company": "Equatorial Energia",
+                "period": "02/2021 - 05/2021",
+                "job_description": "Data Scientist responsible for doing: <br>- Pattern recognition and analytics<br>- Customer Segmentation<br>- Scoring model<br>- Building and management of Machine Learning models<br>- Creating and management of ETL Pipelines" 
+            }, 
+            {
+                "title": "Back-end Developer", 
+                "company": "SAMCORP Solutions",
+                "period": "09/2020 - 02/2021",
+                "job_description": "Outsourced back-end developer at Cargill in an international project to create a system for managing grain purchase and sale contracts<br>- .NET Core framework<br>- MySQL<br>- SQL Server<br> - Development of micro-services" 
+            }, 
+            {
+                "title": "Developer/ML Researcher", 
+                "company": "R&D SISHCO (NCA - Equaltorial Energia)",
+                "period": "03/2019 - 09/2021",
+                "job_description": "I worked as a developer and researcher in the creation of an adaptive parameter definition tool for the critique of the electrical energy consumption function using Deep Learning and Survival Analysis. This software was able, in an individualized and adaptive way, to generate estimates to define the critical consumption of electric energy in historical information." 
+            }, 
+            {
+                "title": "Developer/ML Researcher", 
+                "company": "R&D SAUL (NCA - Equaltorial Energia)",
+                "period": "11/2017 - 03/2019",
+                "job_description": "I worked as a developer and researcher in the creation of a tool for self-organizing construction of reading clusters using methods of computational intelligence and Geographic Information Systems. A WebGIS application was developed for self-organization of grouping consumer units for measurement reading. An optimization module was then developed that was integrated as a service through the Django framework, in which the machine learning algorithms responsible for the automatic generation of clusters and organization of consumer units were implemented." 
+            }
+        ]
+    }
+}
