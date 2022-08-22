@@ -5,31 +5,37 @@
                 "title": "Engenheiro de Machine Learning Pleno", 
                 "company": "Consolide",
                 "period": "06/2021 - Hoje",
-                "job_description": "Engenheiro de Machine Learning atuando em projetos envolvendo:- IA/Python Team Leade<br>- Transcrição de fala para texto<br>- Semelhança fonética e gramatical<br>- Modelo de classificação de texto e de Scoring<br>- Manipulação do ciclo de vida do modelo de aprendizado de máquina<br>- PNL para correspondência de marcas" 
-            }, 
+                "job_description": "Engenheiro de Machine Learning liderando time de AI/Python em projetos envolvendo:<br>- Aplicar soluções de NLP para realizar matching de marcas<br>- Aplicar BERT para a classificação de texto<br>- Transcrição de Fala para Texto<br>- Desenvolvimento de modelo de Scoring usando métrica de similaridade Fonética e Gramatical<br>- Cuidar do ciclo de vida de um modelo de Machine Learning<br><b>Stack</b>: Python, PyTorch, Tensorflow, Scikit-learn, Pandas, Dask, MLFlow, Django MySQL e Docker" 
+            },
+            {
+                "title": "Pesquisador de Machine Learning", 
+                "company": "Vision and Image Processing Lab (VIPLab)",
+                "period": "03/2019 - 06/2021",
+                "job_description": "Trabalhando em pesquisa sobre previsão de séries temporais usando uma abordagem de rede convolucional. Esta pesquisa foi parte do meu mestrado e resultou em uma publicação na 2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC) denominada Temporal Convolutional Network applied for Forecasting Individual Monthly Electric Energy Consumption.<br><b>Stack</b>: Tensorflow, Keras, hyperopt, scikit-learn, Pandas, Numpy e Oracle" 
+            },  
             {
                 "title": "Cientista de Dados", 
                 "company": "Equatorial Energia",
                 "period": "02/2021 - 05/2021",
-                "job_description": "Cientista de Dados responsável por:<br>- Reconhecimento e Análise de Pardões<br>- Modelo de segmentação clientes<br>- Modelos de Scoring<br>- Criação e manuteção de modelos de Aprendizado de Máquina<br>- Pipelines de ETL para automação em ambientes de produção" 
+                "job_description": "Cientista de Dados responsável por:<br>- Reconhecimento e Análise de Pardões<br>- Modelo de segmentação clientes<br>- Modelos de Scoring<br>- Criação e manuteção de modelos de Aprendizado de Máquina<br>- Pipelines de ETL para automação em ambientes de produção<br><b>Stack</b>: Python, C#, Scikit-learn, Pandas, Dask, Numpy, Oracle, SQLite, Jenkins and SAP Data Services" 
             }, 
             {
                 "title": "Desenvolvedor Back-end", 
                 "company": "SAMCORP Solutions",
                 "period": "09/2020 - 02/2021",
-                "job_description": "Alocado como desenvolvedor back-end terceirizado na Cargill em um projeto Internacional craiação um sistema para gerenciamento de contratos de compra e venda de Grãos.<br>- .NET Core Framework<br>- MySQL<br>- SQL Server<br>- Criação de micro-serviços" 
+                "job_description": "Desenvolvedor back-end terceirizado da Cargill em projeto internacional para criação de sistema de gestão de contratos de compra e venda de grãos.<br>- Colaborando com a equipe internacional<br>- Desenvolvimento de micro-serviços <br>- Fazer apresentação das conquistas do sprint para os clientes<br><b>Stack</b>: C#, .NET Core, Swagger, MySQL e SQL Server." 
             }, 
             {
                 "title": "Desenvolvedor/Pesquisador ML", 
                 "company": "P&D SISHCO (NCA - Equaltorial Energia)",
                 "period": "03/2019 - 09/2021",
-                "job_description": "Atuei como desenvolvedor e pesquisador na criação de uma ferramenta de definição adaptativa de parâmetros para a crítica da medição do consumo de energia elétrica usando Deep Learning e Survival Analysis. Esse software foi capaz de maneira individualizada e adaptativa, gerar estimativas para crítica da medição do consumo de energia elétrica baseados em informações históricas." 
+                "job_description": "Trabalhei como Cientista de P&D no projeto SISHCO, colaboração entre NCA e Equatorial Energia. O objetivo com o SISHCO foi desenvolver uma ferramenta de definição de parâmetros adaptativos para a crítica da função de consumo de energia elétrica usando Deep Learning e Survival Analysis.<br>- Previsão mensal do consumo de energia utilizando o estado da arte em métodos de regressão<br>- Meta-classificador para determinar o modelo de previsão de melhor desempenho para cada cliente<br>- Abordagem para prever o consumo quando o cliente tem poucos ou nenhum dado histórico<br><b>Stack</b>: Tensorflow, Keras, Oracle, Pandas, Numpy e Django" 
             }, 
             {
                 "title": "Desenvolvedor/Pesquisador ML", 
                 "company": "P&D SAUL (NCA - Equaltorial Energia)",
                 "period": "11/2017 - 03/2019",
-                "job_description": "Atuei como desenvolvedor e pesquisador na criação de uma ferramenta para construção auto organizável de agrupamentos de leitura utilizando de métodos de inteligência computacional e Sistemas de Informação Geográfica. Foi desenvolvida uma aplicação WebGIS para auto-organização de agrupamento de unidades consumidoras para leitura de medição. Foi então desenvolvido um módulo de otimização que foi integrado em forma de serviço através do framework Django, nele foram implementados os algoritmos de aprendizado de máquina responsáveis pela geração automática dos agrupamentos e organização das unidades consumidoras." 
+                "job_description": "Atuei como Estagiária de P&D no projeto SAUL, colaboração entre NCA e Equatorial Energia para o desenvolvimento de uma ferramenta de construção auto-organizada de clusters de leitura utilizando métodos de inteligência computacional e Sistemas de Informação Geográfica.<br>- Desenvolvimento de uma aplicação WebGIS para realizar uma organização manual de grupos de unidades consumidoras para leitura de consumo.<br>- Desenvolvimento de um módulo de otimização integrado como serviço através do framework Django.<br>- Modelo de ML responsável pela geração automática de clusters e organização de unidades consumidoras.<br><b>Stack</b>: Python, C#, Keras, Scikit-learn, Django, Pandas, Numpy, Anaconda e Oracle" 
             }
         ],
         "en-US": [
@@ -37,31 +43,37 @@
                 "title": "Mid-Level Machine Learning Engineer", 
                 "company": "Consolide",
                 "period": "06/2021 - Hoje",
-                "job_description": "Machine Learning Engineer working in projects involving:<br>- AI/Python Team Leader<br>- Speech to text transcription<br>- Phonetic and grammatical similarity<br>- Text classification and Scoring model<br>- Handling machine learning model lifecycle<br>- NLP for trademark matching" 
+                "job_description": "Machine Learning Engineer leading AI/Python team in projects involving:<br>- Applying NLP solutions for trademark matching<br>- Applying BERT for Text classification<br>- Speech to text transcription<br>- Development of Scoring model using Phonetic and grammatical similarity<br>- Handling Machine Learning model lifecycle<br><b>Stack</b>: Python, PyTorch, Tensorflow, Scikit-learn, Pandas, Dask, MLFlow, Django MySQL e Docker" 
             }, 
+            {
+                "title": "Machine Learning Researcher", 
+                "company": "Vision and Image Processing Lab (VIPLab)",
+                "period": "03/2019 - 06/2021",
+                "job_description": "Working in research on time series prediction using a convolutional network approach. This research resulted in a publication in the 2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC) called Temporal Convolutional Network applied for Forecasting Individual Monthly Electric Energy Consumption and also was part of my Master`s dissertation.<br><b>Stack</b>: Tensorflow, Keras, hyperopt, scikit-learn, Pandas, Numpy and Oracle" 
+            },
             {
                 "title": "Mid-Level Data Scientist", 
                 "company": "Equatorial Energia",
                 "period": "02/2021 - 05/2021",
-                "job_description": "Data Scientist responsible for doing: <br>- Pattern recognition and analytics<br>- Customer Segmentation<br>- Scoring model<br>- Building and management of Machine Learning models<br>- Creating and management of ETL Pipelines" 
+                "job_description": "Data Scientist working in the collection`s department of one of the largest power companies in LATAM responsible for doing:<br>- Pattern recognition and analytics<br>- Employing Customer Segmentation and Scoring models<br>- Building and management of Machine Learning models<br>- Creating and management of ETL Pipelines<br><b>Stack</b>: Python, C#, Scikit-learn, Pandas, Dask, Numpy, Oracle, SQLite, Jenkins and SAP Data Services" 
             }, 
             {
                 "title": "Back-end Developer", 
                 "company": "SAMCORP Solutions",
                 "period": "09/2020 - 02/2021",
-                "job_description": "Outsourced back-end developer at Cargill in an international project to create a system for managing grain purchase and sale contracts<br>- .NET Core framework<br>- MySQL<br>- SQL Server<br> - Development of micro-services" 
+                "job_description": "Outsourced back-end developer at Cargill in an international project to create a system for managing grain purchase and sale contracts.<br>- Collaborating with international team<br>- Developing micro-services <br>- Making presentation of sprint achievements to the clients<br><b>Stack</b>: C#, .NET Core, Swagger, MySQL and SQL Server." 
             }, 
             {
                 "title": "Developer/ML Researcher", 
                 "company": "R&D SISHCO (NCA - Equaltorial Energia)",
                 "period": "03/2019 - 09/2021",
-                "job_description": "I worked as a developer and researcher in the creation of an adaptive parameter definition tool for the critique of the electrical energy consumption function using Deep Learning and Survival Analysis. This software was able, in an individualized and adaptive way, to generate estimates to define the critical consumption of electric energy in historical information." 
+                "job_description": "I worked as a R&D Scientist in a project project called SISHCO, collaboration between NCA and Equatorial Energia. The objective with SISHCO was to develop an adaptive parameter definition tool for the critique of the electrical energy consumption function using Deep Learning and Survival Analysis. <br>- Monthly prediction of power consumption using state-of-the-art regression methods. <br>- Meta-classifier to determine the best performing forecasting model for each costumer<br>- Approach for predicting consumption when costumer has small or lack of historical data<br><b>Stack</b>: Tensorflow, Keras, Oracle, Pandas, Numpy and Django" 
             }, 
             {
                 "title": "Developer/ML Researcher", 
                 "company": "R&D SAUL (NCA - Equaltorial Energia)",
                 "period": "11/2017 - 03/2019",
-                "job_description": "I worked as a developer and researcher in the creation of a tool for self-organizing construction of reading clusters using methods of computational intelligence and Geographic Information Systems. A WebGIS application was developed for self-organization of grouping consumer units for measurement reading. An optimization module was then developed that was integrated as a service through the Django framework, in which the machine learning algorithms responsible for the automatic generation of clusters and organization of consumer units were implemented." 
+                "job_description": "I worked as a R&D Intern in a project called SAUL, collaboration between NCA and Equatorial Energia for the development of a tool for self-organizing construction of reading clusters using methods of computational intelligence and Geographic Information Systems. <br>- A WebGIS application was developed for performing a manual organization of groups of consumer units for consumption reading. <br>- An optimization module was then developed that was integrated as a service through the Django framework.<br>- ML model responsible for the automatic generation of clusters and organization of consumer units.<br><b>Stack</b>: Python, C#, Keras, Scikit-learn, Django, Pandas, Numpy, Anaconda and Oracle" 
             }
         ]
     }

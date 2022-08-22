@@ -4,6 +4,8 @@ const EXPERIENCES = ['/', '/home/'].includes(window.location.pathname) ? experie
 const NOT_AVAILABLE_ERROR =  ['/', '/home/'].includes(window.location.pathname) ? "Not available right now..." : "Indisponível no momento...." 
 
 function displayExperiences(experience) {
+    // TODO: show the total time in each experience.
+    // Ex: 03/2019 - 06/2021 (2 yrs and 4 mos)
     let new_row = "<li>\
                     <div class='title'>" + experience.period + "</div>\
                     <div class='details'>\
